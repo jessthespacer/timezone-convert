@@ -1,6 +1,7 @@
 # timezone-convert
+To use, run the code from the command line. All times use **24-hour** format.
 
-To use, run the code from the command line. All times use 24-hour format.
+This code requires the `pytz` module to be installed. If you do not have it, run `pip install pytz` from the command line.
 
 # Get times for everyone right now
 To get times for everyone right now, run `py timezone-convert.py`.
