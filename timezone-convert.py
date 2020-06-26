@@ -8,7 +8,7 @@ localFormat = "%Y-%m-%d %H:%M:%S"
 
 if len(sys.argv) > 1:
 	name = sys.argv[1]
-	dateString = '2020-06-' + sys.argv[2] + ' ' + sys.argv[3] + ':00'
+	dateString = '2020-' + sys.argv[2] + ' ' + sys.argv[3] + ':00'
 	me = None
 
 	for i, person in enumerate(people):
@@ -22,8 +22,12 @@ if len(sys.argv) > 1:
 	dateLocal = mytz.localize(datetime.strptime(dateString, '%Y-%m-%d %H:%M:%S'))
 	dateUTC = dateLocal.astimezone(pytz.utc)
 
+	print('At ', dateString, ' in ', people[me], '\'s timezone, it is:', sep='')
+	print()
 else:
 	dateUTC = pytz.utc.localize(datetime.utcnow()).astimezone(pytz.utc)
+	print('Right now, it is:')
+	print()
 
 for i, tz in enumerate(timezones):
     localDatetime = dateUTC.astimezone(pytz.timezone(tz))
