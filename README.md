@@ -40,7 +40,7 @@ Bibek (Asia/Kathmandu):
 Emily/Jin/Justin/Kaitlyn/Kuunal (America/Toronto):
 2020-06-26 20:00:00
 
-Nurayim (Asia/Bishkek):
+Nuraiym (Asia/Bishkek):
 2020-06-27 06:00:00
 
 Priyanka (PST8PDT):
