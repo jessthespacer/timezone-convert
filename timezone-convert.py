@@ -2,7 +2,7 @@ from datetime import datetime
 import pytz
 import sys
 
-people	  = ['Amal', 'Bibek', 'Emily/Jin/Justin/Kaitlyn/Kuunal', 'Nurayim', 'Priyanka', 'CEST']
+people	  = ['Amal', 'Bibek', 'Emily/Jin/Justin/Kaitlyn/Kuunal', 'Nuraiym', 'Priyanka', 'CEST']
 timezones = ['Asia/Kuwait', 'Asia/Kathmandu', 'America/Toronto', 'Asia/Bishkek', 'PST8PDT', 'Europe/Berlin']
 localFormat = "%Y-%m-%d %H:%M:%S"
 
