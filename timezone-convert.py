@@ -2,8 +2,8 @@ from datetime import datetime
 import pytz
 import sys
 
-people	  = ['Amal', 'Bibek', 'Emily/Jin/Justin/Kaitlyn/Kuunal', 'Nurayim', 'Priyanka']
-timezones = ['Asia/Kuwait', 'Asia/Kathmandu', 'America/Toronto', 'Asia/Bishkek', 'PST8PDT']
+people	  = ['Amal', 'Bibek', 'Emily/Jin/Justin/Kaitlyn/Kuunal', 'Nurayim', 'Priyanka', 'CEST']
+timezones = ['Asia/Kuwait', 'Asia/Kathmandu', 'America/Toronto', 'Asia/Bishkek', 'PST8PDT', 'Europe/Berlin']
 localFormat = "%Y-%m-%d %H:%M:%S"
 
 if len(sys.argv) > 1:
